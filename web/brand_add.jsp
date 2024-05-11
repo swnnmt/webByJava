@@ -16,7 +16,7 @@
     </head>
     <div class="admin-content-right">
             <div class="admin-content-right-cartegory_add">
-                <h1>Thêm loại sản phẩm (test)</h1>
+                <h1>Thêm loại sản phẩm (test)(pull)</h1>
                 <br>
                 <form action="add_brand" method="post">
                     <select name="cartegory_id" id="">
