@@ -1,0 +1,93 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root{
+    --main-text-font:Arial, Helvetica,sans-serif;
+}
+.payment{
+    padding: 100px 0;
+}
+.payment-top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-top{
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0 100px ;
+}
+.payment-top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.payment-top-item i{
+    color: #dddddd;
+}
+.payment-top-payment{
+    border: 1px solid #0dd7ea;
+}
+.payment-top-payment i{
+    color: #0dd7ea;
+}
+.payment-content-left{
+    padding-left:50px;
+    width: 60%;
+}
+.payment-content-right{
+    width: 40%;
+    border-left: 2px solid #dddddd;
+    padding-left: 12px;
+}
+.payment-content-right-payment{
+    margin-top: 30px;
+    margin-left: 50%;
+    display: flex;
+}
+.payment-content-right-payment button{
+    background-color: #fff;
+    font-family: var(--main-text-font);
+    font-size: 15px;
+    color: black;
+    height: 40px;
+    width: 150px;
+}
+.payment-content-right-payment button:hover{
+    background-color: black;
+}
+.payment-content-right-payment button:hover p{
+  color: #fff;
+}
+.payment-content-right-button{
+    margin-bottom: 15px;
+}
+.payment-content-right-button input{
+    margin-right: 30px;
+    width: 50%;
+    height: 30px;
+}
+.payment-content-right-button button{
+    width: 15%;
+    height: 30px;
+}
+.payment-content-right-button button:hover{
+    background-color: black;
+}
+.payment-content-right-button button:hover i{
+    color: #fff;
+}
+.payment-content-right-mnv select{
+    width: calc(65% + 35px);
+    height: 35px;
+}
